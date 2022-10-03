@@ -1,0 +1,83 @@
+/* Stylesheet for Calculator */
+
+.mobile-phone{
+    background-image: url("iphonecalc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.time{
+    margin: auto;
+    width: 310px;
+    color: white;
+    height: 60px;
+}
+
+#time-spot{
+    vertical-align: bottom;
+    line-height: 60px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+.calculator {
+    background-size: contain;
+    height: 100vh;
+    width: 310px;
+    padding-top: 80px;
+    touch-action: none;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.row{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.button{
+    border-radius: 200px;
+    background-color: #313131;
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.btn-text{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+#zero-btn{
+    text-align: center;
+    padding-right: 118px;
+}
+#zero-btn-text{
+    margin-left: 5px;
+}
+
+.top-row{
+    background-color: #9f9f9f;
+    color: black;
+}
+
+.last-column{
+    background-color: #f69906;
+}
+
+#calculator-line{
+    text-align: right;
+    margin: 10px;
+    height: 100px;
+}
+
+#calculator-line-text{
+    font-size: 80px;
+    font-weight: lighter;
+}

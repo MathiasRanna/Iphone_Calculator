@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="iphone_time.js"></script>
+
+    <!-- jQuery library -->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Iphone calculator</title>
+</head>
+<body>
+
+<div class="mobile-phone">
+
+    <div class="time"><p id="time-spot">9:00</p></div>
+
+    <div class="container calculator">
+        <div class="row" id="calculator-line">
+            <div class="col-sm-12" ><p id="calculator-line-text">0</p></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-3 top-row button">
+                <p class="btn-text" id="C-btn">AC</p>
+            </div>
+            <div class="col-sm-3 top-row button" >
+                <p class="btn-text">+/-</p>
+            </div>
+            <div class="col-sm-3 top-row button">
+                <p class="btn-text">%</p>
+            </div>
+            <div class="col-sm-3 last-column button">
+                <p operation class="btn-text">÷</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div  class="col-sm-3 button">
+                <p data-nr class="btn-text">7</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">8</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">9</p>
+            </div>
+            <div class="col-sm-3 last-column button">
+                <p operation class="btn-text">×</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">4</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">5</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">6</p>
+            </div>
+            <div class="col-sm-3 last-column button">
+                <p operation class="btn-text">-</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">1</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">2</p>
+            </div>
+            <div class="col-sm-3 button">
+                <p data-nr class="btn-text">3</p>
+            </div>
+            <div class="col-sm-3 last-column button">
+                <p operation class="btn-text">+</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div data-nr class="col-sm-6 button" id="zero-btn">
+                <p class="btn-text" id="zero-btn-text">0</p>
+            </div>
+            <div data-nr class="col-sm-3 button">
+                <p class="btn-text">.</p>
+            </div>
+            <div class="col-sm-3 last-column button">
+                <p data-equal class="btn-text">=</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+<footer>
+    <script src="cal_functionality.js"></script>
+</footer>
+
+</html>
